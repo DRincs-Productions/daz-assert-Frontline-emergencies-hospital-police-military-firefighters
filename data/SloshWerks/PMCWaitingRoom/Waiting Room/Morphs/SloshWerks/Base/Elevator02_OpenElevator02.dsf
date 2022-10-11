@@ -1,0 +1,83 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/SloshWerks/PMCWaitingRoom/Waiting%20Room/Morphs/SloshWerks/Base/Elevator02_OpenElevator02.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "SloshWerks",
+			"email" : "",
+			"website" : "http://www.daz3d.com/sloshwerks"
+		},
+		"revision" : "1.0",
+		"modified" : "2016-04-09T04:21:41Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "OpenElevator02",
+			"name" : "OpenElevator02",
+			"parent" : "/data/SloshWerks/PMCWaitingRoom/Waiting%20Room/WaitingRoom.dsf#Elevator02",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "OpenElevator02",
+				"label" : "Open Elevator 02",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/General/Transforms",
+			"formulas" : [
+				{
+					"output" : "ElevatorDoor03:/data/SloshWerks/PMCWaitingRoom/Waiting%20Room/WaitingRoom.dsf#ElevatorDoor03?translation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Elevator02:#OpenElevator02?value" },
+						{ "op" : "push", "val" : 73 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "ElevatorDoor03:/data/SloshWerks/PMCWaitingRoom/Waiting%20Room/WaitingRoom.dsf#ElevatorDoor03?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Elevator02:#OpenElevator02?value" },
+						{ "op" : "push", "val" : -0.2 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "ElevatorDoor04:/data/SloshWerks/PMCWaitingRoom/Waiting%20Room/WaitingRoom.dsf#ElevatorDoor04?translation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Elevator02:#OpenElevator02?value" },
+						{ "op" : "push", "val" : -97 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "ElevatorDoor04:/data/SloshWerks/PMCWaitingRoom/Waiting%20Room/WaitingRoom.dsf#ElevatorDoor04?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Elevator02:#OpenElevator02?value" },
+						{ "op" : "push", "val" : -0.2 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "OpenElevator02-1",
+				"url" : "#OpenElevator02"
+			}
+		]
+	}
+}
