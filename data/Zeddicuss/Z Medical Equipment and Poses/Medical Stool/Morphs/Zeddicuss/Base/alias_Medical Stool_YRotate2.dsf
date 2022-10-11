@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Stool/Morphs/Zeddicuss/Base/alias_Medical%20Stool_YRotate2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-08-19T14:29:37Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "YRotate2",
+			"name" : "YRotate2",
+			"parent" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Stool/Medical%20Stool.dsf#Medical%20Stool",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "YRotate2",
+				"label" : "Foot5 Rotate",
+				"target_channel" : "Foot5:/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Stool/Medical%20Stool.dsf#Foot5?rotation/y"
+			},
+			"group" : "/General/Transforms/Rotation"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "YRotate2-1",
+				"url" : "#YRotate2"
+			}
+		]
+	}
+}

@@ -1,0 +1,664 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Zeddicuss/Z Medical Equipment and Poses/Examination%20Stick/Examination%20Stick.dsf",
+		"type" : "prop",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-08-25T13:13:55Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "Examination Stick-1",
+			"name" : "Examination Stick",
+			"type" : "subdivision_surface",
+			"edge_interpolation_mode" : "edges_only",
+			"subd_normal_smoothing_mode" : "smooth_all_normals",
+			"vertices" : {
+				"count" : 112,
+				"values" : [
+					[ -0.8950091, 0.00317402, -8.66209 ],
+					[ 0.8950091, 0.00317402, -8.66209 ],
+					[ 0.8950091, 0.00317402, 8.66209 ],
+					[ -0.8950091, 0.00317402, 8.66209 ],
+					[ -0.8950091, 0.00317402, -8.26188 ],
+					[ 0.8950091, 0.00317402, -8.26188 ],
+					[ -0.8950091, 0.00317402, 8.26188 ],
+					[ 0.8950091, 0.00317402, 8.26188 ],
+					[ -0.718916, 0.00317402, -8.26188 ],
+					[ -0.718916, 0.00317402, -9.2624 ],
+					[ 0.718916, 0.00317402, -8.26188 ],
+					[ 0.718916, 0.00317402, -9.2624 ],
+					[ -0.718916, 0.00317402, 8.26188 ],
+					[ 0.718916, 0.00317402, 8.26188 ],
+					[ 0.718916, 0.00317402, 9.2624 ],
+					[ -0.718916, 0.00317402, 9.2624 ],
+					[ 0.225542, 0.00317402, -9.527541 ],
+					[ 0.225542, 0.00317402, -8.26188 ],
+					[ -0.225542, 0.00317402, -9.527541 ],
+					[ -0.225542, 0.00317402, -8.26188 ],
+					[ 0.225542, 0.00317402, 8.26188 ],
+					[ -0.225542, 0.00317402, 8.26188 ],
+					[ 0.225542, 0.00317402, 9.527541 ],
+					[ -0.225542, 0.00317402, 9.527541 ],
+					[ -0.8950091, 0.304826, -8.26188 ],
+					[ -0.718916, 0.304826, -8.26188 ],
+					[ -0.718916, 0.304826, -9.2624 ],
+					[ -0.8950091, 0.304826, -8.66209 ],
+					[ 0.718916, 0.304826, -8.26188 ],
+					[ 0.8950091, 0.304826, -8.26188 ],
+					[ 0.8950091, 0.304826, -8.66209 ],
+					[ 0.718916, 0.304826, -9.2624 ],
+					[ -0.8950091, 0.304826, 8.26188 ],
+					[ -0.718916, 0.304826, 8.26188 ],
+					[ 0.718916, 0.304826, 8.26188 ],
+					[ 0.8950091, 0.304826, 8.26188 ],
+					[ 0.718916, 0.304826, 9.2624 ],
+					[ 0.8950091, 0.304826, 8.66209 ],
+					[ -0.8950091, 0.304826, 8.66209 ],
+					[ -0.718916, 0.304826, 9.2624 ],
+					[ 0.225542, 0.304826, -9.527541 ],
+					[ 0.225542, 0.304826, -8.26188 ],
+					[ -0.225542, 0.304826, -9.527541 ],
+					[ -0.225542, 0.304826, -8.26188 ],
+					[ 0.225542, 0.304826, 8.26188 ],
+					[ -0.225542, 0.304826, 8.26188 ],
+					[ 0.225542, 0.304826, 9.527541 ],
+					[ -0.225542, 0.304826, 9.527541 ],
+					[ -0.718916, 0.262602, -9.2624 ],
+					[ -0.8950091, 0.262602, -8.66209 ],
+					[ -0.718916, 0.045398, -9.2624 ],
+					[ -0.8950091, 0.045398, -8.66209 ],
+					[ -0.8950091, 0.262602, -8.26188 ],
+					[ -0.8950091, 0.045398, -8.26188 ],
+					[ 0.8950091, 0.262602, -8.26188 ],
+					[ 0.8950091, 0.262602, -8.66209 ],
+					[ 0.8950091, 0.045398, -8.26188 ],
+					[ 0.8950091, 0.045398, -8.66209 ],
+					[ 0.718916, 0.262602, -9.2624 ],
+					[ 0.718916, 0.045398, -9.2624 ],
+					[ -0.8950091, 0.262602, 8.26188 ],
+					[ -0.8950091, 0.045398, 8.26188 ],
+					[ 0.8950091, 0.262602, 8.26188 ],
+					[ 0.8950091, 0.045398, 8.26188 ],
+					[ 0.718916, 0.262602, 9.2624 ],
+					[ 0.8950091, 0.262602, 8.66209 ],
+					[ 0.718916, 0.045398, 9.2624 ],
+					[ 0.8950091, 0.045398, 8.66209 ],
+					[ -0.8950091, 0.262602, 8.66209 ],
+					[ -0.8950091, 0.045398, 8.66209 ],
+					[ -0.718916, 0.262602, 9.2624 ],
+					[ -0.718916, 0.045398, 9.2624 ],
+					[ 0.225542, 0.262602, -9.527541 ],
+					[ 0.225542, 0.045398, -9.527541 ],
+					[ -0.225542, 0.262602, -9.527541 ],
+					[ -0.225542, 0.045398, -9.527541 ],
+					[ 0.225542, 0.262602, 9.527541 ],
+					[ 0.225542, 0.045398, 9.527541 ],
+					[ -0.225542, 0.262602, 9.527541 ],
+					[ -0.225542, 0.045398, 9.527541 ],
+					[ -0.718916, 0.28374, -9.2624 ],
+					[ -0.8950091, 0.28374, -8.66209 ],
+					[ -0.718916, 0.0242598, -9.2624 ],
+					[ -0.8950091, 0.0242598, -8.66209 ],
+					[ -0.8950091, 0.28374, -8.26188 ],
+					[ -0.8950091, 0.0242598, -8.26188 ],
+					[ 0.8950091, 0.28374, -8.26188 ],
+					[ 0.8950091, 0.28374, -8.66209 ],
+					[ 0.8950091, 0.0242598, -8.26188 ],
+					[ 0.8950091, 0.0242598, -8.66209 ],
+					[ 0.718916, 0.28374, -9.2624 ],
+					[ 0.718916, 0.0242598, -9.2624 ],
+					[ -0.8950091, 0.28374, 8.26188 ],
+					[ -0.8950091, 0.0242598, 8.26188 ],
+					[ 0.8950091, 0.28374, 8.26188 ],
+					[ 0.8950091, 0.0242598, 8.26188 ],
+					[ 0.718916, 0.28374, 9.2624 ],
+					[ 0.8950091, 0.28374, 8.66209 ],
+					[ 0.718916, 0.0242598, 9.2624 ],
+					[ 0.8950091, 0.0242598, 8.66209 ],
+					[ -0.8950091, 0.28374, 8.66209 ],
+					[ -0.8950091, 0.0242598, 8.66209 ],
+					[ -0.718916, 0.28374, 9.2624 ],
+					[ -0.718916, 0.0242598, 9.2624 ],
+					[ 0.225542, 0.28374, -9.527541 ],
+					[ 0.225542, 0.0242598, -9.527541 ],
+					[ -0.225542, 0.28374, -9.527541 ],
+					[ -0.225542, 0.0242598, -9.527541 ],
+					[ 0.225542, 0.28374, 9.527541 ],
+					[ 0.225542, 0.0242598, 9.527541 ],
+					[ -0.225542, 0.28374, 9.527541 ],
+					[ -0.225542, 0.0242598, 9.527541 ]
+				]
+			},
+			"polygon_groups" : {
+				"count" : 1,
+				"values" : [
+					"Default"
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 1,
+				"values" : [
+					"EXA_Stick"
+				]
+			},
+			"polylist" : {
+				"count" : 110,
+				"values" : [
+					[ 0, 0, 45, 33, 39, 47 ],
+					[ 0, 0, 44, 45, 47, 46 ],
+					[ 0, 0, 34, 44, 46, 36 ],
+					[ 0, 0, 43, 25, 33, 45 ],
+					[ 0, 0, 41, 43, 45, 44 ],
+					[ 0, 0, 28, 41, 44, 34 ],
+					[ 0, 0, 42, 26, 25, 43 ],
+					[ 0, 0, 40, 42, 43, 41 ],
+					[ 0, 0, 31, 40, 41, 28 ],
+					[ 0, 0, 33, 32, 38, 39 ],
+					[ 0, 0, 35, 34, 36, 37 ],
+					[ 0, 0, 34, 35, 29, 28 ],
+					[ 0, 0, 32, 33, 25, 24 ],
+					[ 0, 0, 28, 29, 30, 31 ],
+					[ 0, 0, 24, 25, 26, 27 ],
+					[ 0, 0, 4, 0, 9, 8 ],
+					[ 0, 0, 10, 11, 1, 5 ],
+					[ 0, 0, 6, 4, 8, 12 ],
+					[ 0, 0, 13, 10, 5, 7 ],
+					[ 0, 0, 7, 2, 14, 13 ],
+					[ 0, 0, 12, 15, 3, 6 ],
+					[ 0, 0, 11, 10, 17, 16 ],
+					[ 0, 0, 16, 17, 19, 18 ],
+					[ 0, 0, 18, 19, 8, 9 ],
+					[ 0, 0, 10, 13, 20, 17 ],
+					[ 0, 0, 17, 20, 21, 19 ],
+					[ 0, 0, 19, 21, 12, 8 ],
+					[ 0, 0, 13, 14, 22, 20 ],
+					[ 0, 0, 20, 22, 23, 21 ],
+					[ 0, 0, 21, 23, 15, 12 ],
+					[ 0, 0, 48, 50, 51, 49 ],
+					[ 0, 0, 49, 51, 53, 52 ],
+					[ 0, 0, 54, 56, 57, 55 ],
+					[ 0, 0, 55, 57, 59, 58 ],
+					[ 0, 0, 52, 53, 61, 60 ],
+					[ 0, 0, 62, 63, 56, 54 ],
+					[ 0, 0, 64, 66, 67, 65 ],
+					[ 0, 0, 65, 67, 63, 62 ],
+					[ 0, 0, 60, 61, 69, 68 ],
+					[ 0, 0, 68, 69, 71, 70 ],
+					[ 0, 0, 58, 59, 73, 72 ],
+					[ 0, 0, 72, 73, 75, 74 ],
+					[ 0, 0, 74, 75, 50, 48 ],
+					[ 0, 0, 76, 77, 66, 64 ],
+					[ 0, 0, 78, 79, 77, 76 ],
+					[ 0, 0, 70, 71, 79, 78 ],
+					[ 0, 0, 26, 80, 81, 27 ],
+					[ 0, 0, 80, 48, 49, 81 ],
+					[ 0, 0, 50, 82, 83, 51 ],
+					[ 0, 0, 82, 9, 0, 83 ],
+					[ 0, 0, 27, 81, 84, 24 ],
+					[ 0, 0, 81, 49, 52, 84 ],
+					[ 0, 0, 51, 83, 85, 53 ],
+					[ 0, 0, 83, 0, 4, 85 ],
+					[ 0, 0, 29, 86, 87, 30 ],
+					[ 0, 0, 86, 54, 55, 87 ],
+					[ 0, 0, 56, 88, 89, 57 ],
+					[ 0, 0, 88, 5, 1, 89 ],
+					[ 0, 0, 30, 87, 90, 31 ],
+					[ 0, 0, 87, 55, 58, 90 ],
+					[ 0, 0, 57, 89, 91, 59 ],
+					[ 0, 0, 89, 1, 11, 91 ],
+					[ 0, 0, 24, 84, 92, 32 ],
+					[ 0, 0, 84, 52, 60, 92 ],
+					[ 0, 0, 53, 85, 93, 61 ],
+					[ 0, 0, 85, 4, 6, 93 ],
+					[ 0, 0, 35, 94, 86, 29 ],
+					[ 0, 0, 94, 62, 54, 86 ],
+					[ 0, 0, 63, 95, 88, 56 ],
+					[ 0, 0, 95, 7, 5, 88 ],
+					[ 0, 0, 36, 96, 97, 37 ],
+					[ 0, 0, 96, 64, 65, 97 ],
+					[ 0, 0, 66, 98, 99, 67 ],
+					[ 0, 0, 98, 14, 2, 99 ],
+					[ 0, 0, 37, 97, 94, 35 ],
+					[ 0, 0, 97, 65, 62, 94 ],
+					[ 0, 0, 67, 99, 95, 63 ],
+					[ 0, 0, 99, 2, 7, 95 ],
+					[ 0, 0, 32, 92, 100, 38 ],
+					[ 0, 0, 92, 60, 68, 100 ],
+					[ 0, 0, 61, 93, 101, 69 ],
+					[ 0, 0, 93, 6, 3, 101 ],
+					[ 0, 0, 38, 100, 102, 39 ],
+					[ 0, 0, 100, 68, 70, 102 ],
+					[ 0, 0, 69, 101, 103, 71 ],
+					[ 0, 0, 101, 3, 15, 103 ],
+					[ 0, 0, 31, 90, 104, 40 ],
+					[ 0, 0, 90, 58, 72, 104 ],
+					[ 0, 0, 59, 91, 105, 73 ],
+					[ 0, 0, 91, 11, 16, 105 ],
+					[ 0, 0, 40, 104, 106, 42 ],
+					[ 0, 0, 104, 72, 74, 106 ],
+					[ 0, 0, 73, 105, 107, 75 ],
+					[ 0, 0, 105, 16, 18, 107 ],
+					[ 0, 0, 42, 106, 80, 26 ],
+					[ 0, 0, 106, 74, 48, 80 ],
+					[ 0, 0, 75, 107, 82, 50 ],
+					[ 0, 0, 107, 18, 9, 82 ],
+					[ 0, 0, 46, 108, 96, 36 ],
+					[ 0, 0, 108, 76, 64, 96 ],
+					[ 0, 0, 77, 109, 98, 66 ],
+					[ 0, 0, 109, 22, 14, 98 ],
+					[ 0, 0, 47, 110, 108, 46 ],
+					[ 0, 0, 110, 78, 76, 108 ],
+					[ 0, 0, 79, 111, 109, 77 ],
+					[ 0, 0, 111, 23, 22, 109 ],
+					[ 0, 0, 39, 102, 110, 47 ],
+					[ 0, 0, 102, 70, 78, 110 ],
+					[ 0, 0, 71, 103, 111, 79 ],
+					[ 0, 0, 103, 15, 23, 111 ]
+				]
+			},
+			"default_uv_set" : "/data/Zeddicuss/Z Medical Equipment and Poses/Examination%20Stick/UV%20Sets/Zeddicuss/Base/default.dsf#default",
+			"extra" : [
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"label" : "View SubD Level",
+								"value" : 1,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDRenderLevel",
+								"type" : "int",
+								"label" : "Render SubD Level (Minimum)",
+								"value" : 0,
+								"min" : 0,
+								"max" : 9,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"label" : "SubDivision Algorithm",
+								"value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"label" : "Edge Interpolation",
+								"value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDNormalSmoothing",
+								"type" : "enum",
+								"label" : "SubDivision Normals",
+								"value" : 0,
+								"enum_values" : [ "Smoothed", "Preserve Cage" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "Examination Stick",
+			"name" : "Examination Stick",
+			"type" : "node",
+			"label" : "Examination Stick",
+			"rotation_order" : "YXZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 0.00144274,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 0.138557,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"extra" : [
+				{
+					"type" : "studio_node_channels",
+					"version" : 4,
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Disable Transform",
+								"type" : "bool",
+								"label" : "Disable Local Transform",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Ignore Local Transform",
+								"type" : "bool",
+								"label" : "Ignore Local Transform",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Constraints"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true
+							},
+							"group" : "/Display"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Viewport",
+								"type" : "bool",
+								"label" : "Visible in Viewport",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable (in Viewport)",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Display/Simulation"
+						}
+					]
+				}
+			]
+		}
+	]
+}

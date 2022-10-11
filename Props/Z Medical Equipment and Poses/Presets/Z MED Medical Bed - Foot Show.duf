@@ -1,0 +1,58 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/Props/Z Medical Equipment and Poses/Presets/Medical%20Bed%20-%20Show%20Foot.duf",
+		"type" : "preset_pose",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-08-25T15:17:46Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection/Foot:?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?translation/z/value",
+				"keys" : [ [ 0, -6 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection/Foot:?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

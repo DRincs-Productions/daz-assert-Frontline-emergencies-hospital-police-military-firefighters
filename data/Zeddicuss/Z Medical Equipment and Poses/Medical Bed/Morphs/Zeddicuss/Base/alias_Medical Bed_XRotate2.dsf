@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Bed/Morphs/Zeddicuss/Base/alias_Medical%20Bed_XRotate2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-09-09T16:15:53Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "XRotate2",
+			"name" : "XRotate2",
+			"parent" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Bed/Medical%20Bed.dsf#Medical%20Bed",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "XRotate2",
+				"label" : "Arm Left Rotate",
+				"target_channel" : "Arm_Left:/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Bed/Medical%20Bed.dsf#Arm_Left?rotation/x"
+			},
+			"group" : "/General/Transforms/Rotation"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "XRotate2-1",
+				"url" : "#XRotate2"
+			}
+		]
+	}
+}

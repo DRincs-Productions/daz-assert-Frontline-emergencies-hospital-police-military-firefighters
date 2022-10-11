@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Screen/Morphs/Zeddicuss/Base/alias_Medical%20Screen_YRotate3.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2021-08-25T13:44:02Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "YRotate3",
+			"name" : "YRotate3",
+			"parent" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Screen/Medical%20Screen.dsf#Medical%20Screen",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "YRotate3",
+				"label" : "Right Rotate",
+				"target_channel" : "Right:/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Screen/Medical%20Screen.dsf#Right?rotation/y"
+			},
+			"group" : "/General/Transforms/Rotation"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "YRotate3-1",
+				"url" : "#YRotate3"
+			}
+		]
+	}
+}

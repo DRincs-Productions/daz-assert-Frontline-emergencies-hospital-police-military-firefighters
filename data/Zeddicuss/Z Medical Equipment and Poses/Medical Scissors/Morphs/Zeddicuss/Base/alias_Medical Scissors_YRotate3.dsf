@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Scissors/Morphs/Zeddicuss/Base/alias_Medical%20Scissors_YRotate3.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-08-25T13:17:52Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "YRotate3",
+			"name" : "YRotate3",
+			"parent" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Scissors/Medical%20Scissors.dsf#Medical%20Scissors",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "YRotate3",
+				"label" : "Right Open Close",
+				"target_channel" : "Right:/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Scissors/Medical%20Scissors.dsf#Right?rotation/y"
+			},
+			"group" : "/General/Transforms/Rotation"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "YRotate3-1",
+				"url" : "#YRotate3"
+			}
+		]
+	}
+}

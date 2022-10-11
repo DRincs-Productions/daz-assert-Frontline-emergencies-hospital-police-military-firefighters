@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Bed/Morphs/Zeddicuss/Base/alias_Medical%20Bed_YRotate3.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-09-09T16:15:53Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "YRotate3",
+			"name" : "YRotate3",
+			"parent" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Bed/Medical%20Bed.dsf#Medical%20Bed",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "YRotate3",
+				"label" : "Wheel Front Left Rotate",
+				"target_channel" : "Wheel_Front_Left:/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Bed/Medical%20Bed.dsf#Wheel_Front_Left?rotation/y"
+			},
+			"group" : "/General/Transforms/Rotation"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "YRotate3-1",
+				"url" : "#YRotate3"
+			}
+		]
+	}
+}

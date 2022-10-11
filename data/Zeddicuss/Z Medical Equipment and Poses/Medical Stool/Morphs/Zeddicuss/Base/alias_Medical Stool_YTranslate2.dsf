@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Stool/Morphs/Zeddicuss/Base/alias_Medical%20Stool_YTranslate2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-08-19T14:29:37Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "YTranslate2",
+			"name" : "YTranslate2",
+			"parent" : "/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Stool/Medical%20Stool.dsf#Medical%20Stool",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "YTranslate2",
+				"label" : "Top Height",
+				"target_channel" : "Top:/data/Zeddicuss/Z Medical Equipment and Poses/Medical%20Stool/Medical%20Stool.dsf#Top?translation/y"
+			},
+			"group" : "/General/Transforms/Translation"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "YTranslate2-1",
+				"url" : "#YTranslate2"
+			}
+		]
+	}
+}

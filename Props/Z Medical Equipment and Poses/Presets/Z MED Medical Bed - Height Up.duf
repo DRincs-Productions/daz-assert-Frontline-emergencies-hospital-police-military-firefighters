@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/Props/Z Medical Equipment and Poses/Presets/Medical%20Bed%20-%20Height%20Up.duf",
+		"type" : "preset_pose",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-08-25T15:42:16Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection/Middle:?translation/y/value",
+				"keys" : [ [ 0, 40 ] ]
+			}
+		]
+	}
+}
